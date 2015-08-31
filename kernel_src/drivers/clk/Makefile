@@ -1,0 +1,1 @@
+obj-$(CONFIG_COMMON_CLK_LOGICLK)	+= clk-logiclk.o

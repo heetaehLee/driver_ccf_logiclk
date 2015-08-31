@@ -1,0 +1,7 @@
+config COMMON_CLK_LOGICLK
+	tristate "logiCLK driver"
+	default n
+	help
+	---help---
+	  Support for the Xylon logiCLK IP core clock generator for Xilinx
+	  FPGAs
