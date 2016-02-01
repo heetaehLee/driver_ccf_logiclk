@@ -891,7 +891,8 @@ static int logiclk_probe(struct platform_device *pdev)
 	struct logiclk_data *data;
 	struct resource *res;
 	void __iomem *base;
-	int i, err, prec_id;
+	int i, err;
+	int prec_id = 0;
 	char name[10];
 	bool set_freq = false;
 
